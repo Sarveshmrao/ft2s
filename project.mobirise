@@ -31,9 +31,15 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Roboto', sans-serif",
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
     "uniqCompNum": 15,
-    "versionPublish": "4.10.8",
+    "versionPublish": "4.11.6",
     "screenshot": "screenshot.png"
   },
   "pages": {
@@ -1188,7 +1194,8 @@
               "z-index": "2",
               "background-color": "@tabsColor1",
               "padding": "1.3rem 2rem",
-              "border": "1px solid #dfdfdf"
+              "border": "1px solid #dfdfdf",
+              "color": "#000000"
             },
             "p": {
               "z-index": "1",
